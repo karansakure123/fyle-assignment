@@ -1,0 +1,217 @@
+
+/* sec1 css */
+body{
+overflow-x: hidden;
+}
+
+
+.home-sec1 {
+    padding: 50px 0;
+}
+
+.home-sec1 .left-content .reed-heading {
+    color: rgb(245, 99, 155);
+    font-weight: bold;
+}
+
+.home-sec1 .left-content h1 {
+    margin: 20px 0;
+}
+
+.home-sec1 .left-content .btn-contact {
+    background-color: rgb(255, 67, 139);
+    color: white;
+    padding: 10px 20px;
+}
+
+input[type=checkbox]:focus {
+    border: 1px solid rgb(255, 102, 102);
+    background-color: rgb(255, 69, 69);
+    color: rgb(255, 255, 255) !important;
+    box-shadow: 0 0 0 0.25rem rgba(201, 23, 23, 0.966);
+}
+
+.contacts {
+    width: 100%;
+    background-color: rgb(255, 67, 139);
+    color: white;
+    padding: 10px 20px;
+}
+
+.contacts:hover {
+    background-color: rgb(226, 21, 100);
+}
+
+input[type="name"],
+input[type="text"],
+input[type="email"] {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    color: rgb(231, 231, 231) !important;
+    border: none !important;
+    border-bottom: 1px solid rgb(187, 187, 187) !important;
+    border-radius: 0px !important;
+}
+
+.modal-dialog {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 7rem;
+}
+
+.modal-content {
+    border-bottom: none !important;
+}
+
+.what-do-heading {
+    color: rgb(245, 99, 155);
+    margin-left: 10px;
+    font-size: 1.24rem;
+    font-weight: 500;
+}
+
+.services-h {
+    margin-left: 10px;
+}
+
+
+
+
+/* sec4 css */
+.sec4-h {
+    color: rgb(245, 99, 155);
+    margin-top: 2rem;
+    font-size: 2rem;
+    margin-left: 20px;
+}
+
+.sec4-card {
+    margin: 20px;
+    padding: 10px;
+
+    background-color: rgb(226, 226, 226);
+}
+
+.sec4-img {
+    padding: 10px;
+    width: 100%;
+    height: 65vh !important;
+}
+
+.sec4-content {
+    padding-top: 6px;
+    margin-left: 10px;
+}
+
+
+.sec4-card:hover {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(212, 59, 123);
+}
+
+.sec6-h {
+    color: rgb(245, 99, 155);
+    font-size: 1.4rem;
+    margin-top: 2rem;
+}
+.img-container{
+margin-top: 20px;
+}
+.sec6-cards {
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+i{
+    
+    font-size: 2rem;
+    color: red;
+    padding: 10px;
+}
+
+.sec6-cards:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+
+.carousel-item .img-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    display: block;
+}
+
+.carousel-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 30, 124, 0.8);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 20px;
+    text-align: center;
+}
+
+.carousel-item .img-container:hover .overlay {
+    opacity: 1;
+}
+
+
+.carousel-indicators{
+ color: transparent;
+    width: 0rem;
+    background-color: transparent;
+}
+
+.read-more-btn {
+    width:115%;
+    height: 9vh;
+    color: rgb(245, 99, 155);
+    background-color: white;
+    border: none;
+    padding: 0;
+    margin: 0;
+     text-align: center;
+   }
+
+.right-icons {
+    color: rgb(245, 99, 155);
+}
+
+/* media query css  */
+@media only screen and (max-width: 767px) {
+
+
+    .sec4-img {
+    
+    height: 40vh !important  ;
+}
+
+    .btn-contact1{
+margin-top: 1rem;
+margin-bottom: 5rem;
+}
+.sec3{
+margin-top: 1rem;
+margin-bottom: 4rem;
+}
+.img-overl{
+padding: 1rem;
+}
+
+
+
+}
